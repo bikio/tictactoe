@@ -19,8 +19,8 @@ class Board
 	end
 
 
-def insert(x,y,value)
-	@grid[x][y] = value
+	def insert(x,y,value)
+		@grid[x][y] = value
 	end
 end
 
